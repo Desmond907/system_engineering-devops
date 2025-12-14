@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${#dirs[@]}"
+echo $(( $(echo $PATH | tr -cd ':' | wc -c) + 1 ))
