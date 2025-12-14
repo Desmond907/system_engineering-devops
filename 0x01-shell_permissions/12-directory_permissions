@@ -1,2 +1,2 @@
 #!/bin/bash
-mandir-m 751 my_dir
+mandir -m 751 my_dir
