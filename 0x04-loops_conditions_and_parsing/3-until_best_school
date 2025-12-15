@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # This script displays "Best School" exactly 10 times using an untill loop
+
 count=1
 
 untill [ "$count" -gt 10 ]
