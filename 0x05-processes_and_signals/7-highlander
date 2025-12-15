@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# 7-highlander
+
+# Handle SIGTERM signal
+sigterm_handler() {
+    # Ensure the message is on a new line and flush output
+    echo "I am invincible!!!"
+}
+
+# Trap SIGTERM and call the handler
+trap sigterm_handler SIGTERM
+
+# Infinite loop
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
